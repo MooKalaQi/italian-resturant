@@ -1,0 +1,223 @@
+*{
+    color: #fff;
+    font-size: 18px;
+
+}
+body{
+    background-color: #2d2d2d;
+}
+a:link , .a:active, a:visited  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header{
+    background-image: url(header-background.png);
+}
+.header_items{
+    display: flex;
+}
+.header-description{
+    display: flex;
+    padding: 0 5rem;
+    margin-top: 5rem;
+    height: 70%;
+
+}
+.resturant{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.resturant_logo{
+    width: 10rem;
+    height: 10rem;
+}
+.resturant_typo{
+    width: 40rem;
+    height: 10rem;
+}
+.resturant_readmore-btn{
+    width: 10rem;
+    border-radius: 10rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.resturant_name{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.resturant_description{
+    font-size: 1.5rem;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.menu_logo{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_description{
+    width: 40%;
+}
+
+.card{
+    display: flex;
+    background-color: #2d2d2d;
+    border: none;
+    width: 30%;
+}
+.card-img-top{
+    width: 100%;
+    height: 100%;
+}
+.menu_items{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.menu_showmore-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.our_story{
+    background-color: #1a1f23;
+    height: 30rem;
+}
+.our_story_logo{
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.our_story_description{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.our_story_description>div {
+    width: 50%;
+    padding: 1rem;
+}
+.discount_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discount_image{
+    width: 100%;
+}
+.card-description{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    font-size: 3rem;
+}
+.btn-showmore-discounts{
+    width: 12rem;
+    background-color: #1a1f23;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    height: 3rem;
+}
+/* .awards_header{
+    background-image: url(header-background.png);
+} */
+.awards_title{
+    background-image: url(header-background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60rem;
+}
+.pizza-pic{
+    position: relative;
+    bottom: 15rem;
+}
+.awards_lists{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 15rem;
+}
+.award_description{
+    color: #1a1f23;
+}
+.awards_description{
+    width: 60%;
+    margin: auto;
+    margin-top: 10rem;
+}
+.susbcriptions{
+    background-color: #1a1f23;
+    justify-content: center;
+}
+.susbcriptions_items{
+    margin: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    justify-content: space-between;
+}
+.input-group>input{
+    border-radius: 10rem;
+}
+.input-group>button{
+    border-radius: 10rem;
+}
+.footer{
+    height: 60rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info>h2{
+    color: black;
+}
+.info>p{
+    color: black;
+}
+.bi{
+    color: black;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.about>h2{
+    color: black;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.services>h2{
+    color: black;
+}
+.other{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.other>h2{
+    color: black;
+}
