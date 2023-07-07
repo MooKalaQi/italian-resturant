@@ -1,71 +1,121 @@
 *{
-   
-    font-size: 16px;
-    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 
-#home{
-    flex-direction: row;
-}
-#awards{
-    background: url(./images/header-background.png);
-    background-repeat: repeat-x;
-    height: 100%;
-    max-height: 1060px;
-}
-#subscribtion{
-    background-color: #1a1f23;
-    margin-top: 10rem;
-    max-height: 40rem;
-}
-#awards_lists{
-    margin-top: 10rem;
-}
-.home_description{
-    flex-direction: column;
-}
-.header{
-    background: url(./images/header-background.png);
-    background-repeat: repeat-x;
+#header{
+    background: url(../images/header-background.png);
     max-height: 920px;
+    width: 100%;
 }
-.logo{
-    width: 12rem;
-    height: 10rem;
+#header_home > div{
+    color: white;
 }
-.d-sm-flex{
-    flex-direction: column;
-    align-items: center;
-}
-#menu{
-    flex-direction: column;
-}
-.menu_description{
-    width: 50%;
-}
-.card{
-    background-color: #272727;
-}
-.discounted_image{
-    width: 10rem;
-    height: 10rem;
-    
-}
-.pizza_background{
-    position: relative;
-    bottom: 25rem;
-}
-#subscribtion>img{
-    position: relative;
-    bottom: 25rem;
+.nav-link{
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-weight: bold;
+    color: white;
 
-}
-#footer{
-    height: 50rem;
-    background-color: white;
-    color: black;
 }
 a:link , .a:active, a:visited  {
-    color: black;
     text-decoration: none;
+}
+.header_info{
+    margin-top: 6rem;
+}
+.header_pasta{
+    width: 100%;
+}
+.header_logo-description{
+    max-height: 720px;
+}
+.logo{
+    width: 20rem;
+    height: 18rem;
+}
+.readmore-btn{
+    height: 5rem;
+    border-radius: 10rem;
+}
+#menu{
+    margin-top: 5rem;
+}
+#menu > p, #menu>div{
+    color: #272727;
+}
+.card{
+    border: none;
+}
+.menu_items{
+    margin-top: 10rem;
+}
+.menu_items-showmore-button{
+    border-radius: 10rem;
+    height: 6rem;
+}
+#our_story{
+    max-height: 90rem;
+    background-color: #1a1f23;
+    margin-top: 10rem;
+}
+.story_logo{
+    width: 75rem;
+    height: 100%;
+}
+.story > p{
+    color: white;
+}
+#discounts{
+    margin-top: 10rem;
+}
+.discount_buttom{
+    background-color: #1a1f23;
+    color: white;
+    border-radius: 10rem;
+    height: 7rem;
+}
+#order{
+    background: url(../images/header-background.png);
+    height: 1020px;
+    width: 100%;
+    margin-top: 10rem;
+}
+#order>div{
+    color: white;
+}
+.order_background{
+    position: relative;
+    bottom: 40rem;
+}
+#awards{
+    margin-top: 25rem;
+    margin-bottom: 20rem;
+}
+#awards > p {
+    margin-top: 5rem ;
+    text-align: center;
+}
+#subscription{
+    height: 920px;
+    background-color: #1a1f23;
+}
+#subscription>img{
+    position: relative;
+    bottom: 80rem;
+}
+.subscription_card{
+    height: 70%;
+    width: 50%;
+}
+.input-group{
+    height: 5rem;
+}
+#footer{
+    height: 920px;
+}
+.about>a , .services>a , .other>a{
+    color: #272727;
 }
