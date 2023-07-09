@@ -42,6 +42,7 @@ a:link , .a:active, a:visited  {
 }
 #menu{
     margin-top: 5rem;
+    width: 100%;
 }
 #menu > p, #menu>div{
     color: #272727;
@@ -60,6 +61,7 @@ a:link , .a:active, a:visited  {
     max-height: 90rem;
     background-color: #1a1f23;
     margin-top: 10rem;
+    width: 100%;
 }
 .story_logo{
     width: 75rem;
@@ -70,6 +72,7 @@ a:link , .a:active, a:visited  {
 }
 #discounts{
     margin-top: 10rem;
+    width: 100%;
 }
 .discount_buttom{
     background-color: #1a1f23;
@@ -93,6 +96,7 @@ a:link , .a:active, a:visited  {
 #awards{
     margin-top: 25rem;
     margin-bottom: 20rem;
+    width: 100%;
 }
 #awards > p {
     margin-top: 5rem ;
@@ -101,6 +105,7 @@ a:link , .a:active, a:visited  {
 #subscription{
     height: 920px;
     background-color: #1a1f23;
+    width: 100%;
 }
 #subscription>img{
     position: relative;
@@ -115,6 +120,7 @@ a:link , .a:active, a:visited  {
 }
 #footer{
     height: 920px;
+    width: 100%;
 }
 .about>a , .services>a , .other>a{
     color: #272727;
