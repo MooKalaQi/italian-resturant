@@ -6,7 +6,7 @@
 }
 
 #header{
-    background: url(../images/header-background.png);
+    background: url(./images/header-background.png);
     max-height: 920px;
     width: 100%;
 }
@@ -78,7 +78,7 @@ a:link , .a:active, a:visited  {
     height: 7rem;
 }
 #order{
-    background: url(../images/header-background.png);
+    background: url(./images/header-background.png);
     height: 1020px;
     width: 100%;
     margin-top: 10rem;
