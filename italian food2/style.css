@@ -1,127 +1,90 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-}
-
-#header{
-    background: url(./images/header-background.png);
-    max-height: 920px;
-    width: 100%;
-}
-#header_home > div{
+    font-family: sans-serif;
     color: white;
-}
-.nav-link{
-    font-size: 1.8rem;
-    font-weight: normal;
-    font-weight: bold;
-    color: white;
-
 }
 a:link , .a:active, a:visited  {
     text-decoration: none;
+    color: white;
 }
-.header_info{
-    margin-top: 6rem;
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#header{
+    background: url(./images/header-background.png);
+    background-size: cover;
+    max-height: 900px;
+}
+.readmore-btn{
+    border-radius: 10rem;
+}
+.logo_typo{
+    width: 100%;
+
 }
 .header_pasta{
     width: 100%;
-}
-.header_logo-description{
-    max-height: 720px;
-}
-.logo{
-    width: 20rem;
-    height: 18rem;
-}
-.readmore-btn{
-    height: 5rem;
-    border-radius: 10rem;
+    height: 100%;
+    top: 6rem;
+    position: relative;
 }
 #menu{
-    margin-top: 5rem;
-    width: 100%;
-}
-#menu > p, #menu>div{
-    color: #272727;
+    margin-top: 5rem ;
+    color: black;
 }
 .card{
     border: none;
 }
-.menu_items{
-    margin-top: 10rem;
-}
 .menu_items-showmore-button{
+    margin-top: 5rem ;
     border-radius: 10rem;
-    height: 6rem;
 }
-#our_story{
-    max-height: 90rem;
+#our-story{
+    margin-top: 5rem;
     background-color: #1a1f23;
-    margin-top: 10rem;
-    width: 100%;
 }
-.story_logo{
-    width: 75rem;
-    height: 100%;
-}
-.story > p{
-    color: white;
-}
-#discounts{
-    margin-top: 10rem;
-    width: 100%;
-}
-.discount_buttom{
-    background-color: #1a1f23;
-    color: white;
-    border-radius: 10rem;
-    height: 7rem;
+.discount_card-img{
+    width: 80%;
 }
 #order{
     background: url(./images/header-background.png);
-    height: 1020px;
-    width: 100%;
+    background-size: cover;
+    max-height: 900px;
     margin-top: 10rem;
-}
-#order>div{
-    color: white;
 }
 .order_background{
     position: relative;
-    bottom: 40rem;
+    bottom: 30rem;
 }
 #awards{
-    margin-top: 25rem;
-    margin-bottom: 20rem;
-    width: 100%;
-}
-#awards > p {
-    margin-top: 5rem ;
-    text-align: center;
+    margin-top: 20rem;
 }
 #subscription{
-    height: 920px;
     background-color: #1a1f23;
-    width: 100%;
-}
-#subscription>img{
-    position: relative;
-    bottom: 80rem;
+    margin-top: 10rem;
 }
 .subscription_card{
-    height: 70%;
-    width: 50%;
+    max-height: 40rem;
+    margin-top: 20rem;
 }
-.input-group{
-    height: 5rem;
+.subsciption_image{
+    position: relative;
+    bottom: 40rem;
+}
+.row_subscription{
+    max-height: 40rem ;
 }
 #footer{
-    height: 920px;
-    width: 100%;
+    margin-top: 10rem;
+   height: 20rem;
 }
-.about>a , .services>a , .other>a{
-    color: #272727;
+.header_search-icon{
+    position: absolute;
+    right: 1rem;
+}
+.subsciption_search-icon{
+    position: absolute;
+    right: 43rem;
 }
