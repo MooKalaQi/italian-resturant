@@ -1,10 +1,14 @@
 body{
     background-color: white;
+    font-family: sans-serif;
 }
 #header{
     background: url(./images/header-background.png);
     background-size: cover;
     max-height: 40rem;
+}
+.search_button{
+    border: none;
 }
 a:link , .a:active, a:visited  {
     text-decoration: none;
@@ -24,6 +28,7 @@ img{
     border: none;
 }
 #our-story{
+    margin-top: 5rem;
     background-color: #212428;
 }
 #discount{
