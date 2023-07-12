@@ -1,90 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    color: white;
+body{
+    background-color: white;
+}
+#header{
+    background: url(./images/header-background.png);
+    background-size: cover;
+    max-height: 40rem;
 }
 a:link , .a:active, a:visited  {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 a:hover{
     text-decoration: underline;
     font-weight: bold;
 }
-#header{
-    background: url(./images/header-background.png);
-    background-size: cover;
-    max-height: 900px;
-}
-.readmore-btn{
-    border-radius: 10rem;
-}
-.logo_typo{
+img{
     width: 100%;
-
-}
-.header_pasta{
-    width: 100%;
-    height: 100%;
-    top: 6rem;
-    position: relative;
 }
 #menu{
     margin-top: 5rem ;
-    color: black;
 }
 .card{
     border: none;
 }
-.menu_items-showmore-button{
-    margin-top: 5rem ;
-    border-radius: 10rem;
-}
 #our-story{
-    margin-top: 5rem;
-    background-color: #1a1f23;
+    background-color: #212428;
 }
-.discount_card-img{
-    width: 80%;
+#discount{
+    margin-top: 5rem;
 }
 #order{
+    margin-top: 10rem;
     background: url(./images/header-background.png);
     background-size: cover;
-    max-height: 900px;
-    margin-top: 10rem;
-}
-.order_background{
-    position: relative;
-    bottom: 30rem;
+    max-height: 80rem;
 }
 #awards{
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
-#subscription{
-    background-color: #1a1f23;
+.awards_description{
+    margin-top: 5rem;
+}
+.order_pizza-pic{
+    position: relative;
+    bottom: 50rem;
+}
+#order>.container>.row{
+    padding: 10rem 0;
+}
+#subscibtion{
     margin-top: 10rem;
+    background-color: #212428;
+    max-height: 60rem;
 }
-.subscription_card{
-    max-height: 40rem;
-    margin-top: 20rem;
-}
-.subsciption_image{
+.subscibtion-image{
     position: relative;
     bottom: 40rem;
 }
-.row_subscription{
-    max-height: 40rem ;
+.subscription-row{
+    padding-top:20rem
+}
+.social_medias-icon{
+    background-color: #212428;
+    border: none;
+    border-radius: 10rem ;
+    color: white;
 }
 #footer{
-    margin-top: 10rem;
-   height: 20rem;
-}
-.header_search-icon{
-    position: absolute;
-    right: 1rem;
-}
-.subsciption_search-icon{
-    position: absolute;
-    right: 43rem;
+    margin: 20rem 0;
 }
