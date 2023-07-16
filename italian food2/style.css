@@ -56,14 +56,19 @@ img{
 #subscibtion{
     margin-top: 10rem;
     background-color: #212428;
-    max-height: 60rem;
+    max-height: 30rem;
+    z-index: 0;
 }
 .subscibtion-image{
     position: relative;
     bottom: 40rem;
+    z-index: 1;
+}
+.subscibtion_container{
+    z-index: 2;
 }
 .subscription-row{
-    padding-top:20rem
+    padding-top:10rem
 }
 .social_medias-icon{
     background-color: #212428;
