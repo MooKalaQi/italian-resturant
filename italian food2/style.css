@@ -1,0 +1,81 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+#header{
+    background: url(./images/header-background.png);
+    background-size: cover;
+    max-height: 40rem;
+}
+.search_button{
+    border: none;
+}
+a:link , .a:active, a:visited  {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+#menu{
+    margin-top: 5rem ;
+}
+.card{
+    border: none;
+}
+#our-story{
+    margin-top: 5rem;
+    background-color: #212428;
+}
+#discount{
+    margin-top: 5rem;
+}
+#order{
+    margin-top: 10rem;
+    background: url(./images/header-background.png);
+    background-size: cover;
+    max-height: 80rem;
+}
+#awards{
+    margin-top: 15rem;
+}
+.awards_description{
+    margin-top: 5rem;
+}
+.order_pizza-pic{
+    position: relative;
+    bottom: 50rem;
+}
+#order>.container>.row{
+    padding: 10rem 0;
+}
+#subscibtion{
+    margin-top: 10rem;
+    background-color: #212428;
+    max-height: 30rem;
+    z-index: 0;
+}
+.subscibtion-image{
+    position: relative;
+    bottom: 40rem;
+    z-index: 1;
+}
+.subscibtion_container{
+    z-index: 2;
+}
+.subscription-row{
+    padding-top:10rem
+}
+.social_medias-icon{
+    background-color: #212428;
+    border: none;
+    border-radius: 10rem ;
+    color: white;
+}
+#footer{
+    margin: 20rem 0;
+}
